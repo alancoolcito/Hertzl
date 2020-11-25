@@ -2087,7 +2087,7 @@ MonoBehaviour:
   uiSlots:
   - uiButton: {fileID: 0}
     uiButtonID: 1857130
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1855142
     sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
@@ -6202,7 +6202,7 @@ MonoBehaviour:
   actionListOnTurnOff: {fileID: 0}
   updateWhenFadeOut: 1
   hideDuringSaveScreenshots: 1
-  fitWithinScreen: 1
+  fitWithinScreen: 0
   backgroundTexture: {fileID: 0}
   visibleElements:
   - {fileID: 8083667436407501543}
@@ -6212,7 +6212,7 @@ MonoBehaviour:
   speechMenuLimit: 0
   limitToCharacters: 
   forceSubtitles: 0
-  moveWithCharacter: 1
+  moveWithCharacter: 0
   selected_element: {fileID: 0}
   selected_slot: 0
   autoSelectFirstVisibleElement: 0

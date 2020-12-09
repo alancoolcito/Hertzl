@@ -101,7 +101,7 @@ MonoBehaviour:
   - label: Jury - Paid
     id: 5
     type: 0
-    val: 0
+    val: 1
     floatVal: 0
     textVal: 
     popUps: []
@@ -118,7 +118,7 @@ MonoBehaviour:
   - label: Jury - Female
     id: 6
     type: 0
-    val: 0
+    val: 1
     floatVal: 0
     textVal: 
     popUps: []

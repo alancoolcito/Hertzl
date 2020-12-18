@@ -30,10 +30,10 @@ MonoBehaviour:
   globalDepth: 0
   pauseTexture: {fileID: 0}
   scaleTextEffects: 0
-  keyboardControlWhenPaused: 1
-  keyboardControlWhenDialogOptions: 1
+  keyboardControlWhenPaused: 0
+  keyboardControlWhenDialogOptions: 0
   autoSelectValidRaycasts: 0
-  hasUpgraded: 0
+  hasUpgraded: 1
   doWindowsPreviewFix: 0
   drawOutlines: 1
   drawInEditor: 1
@@ -588,7 +588,7 @@ MonoBehaviour:
   isLocked: 0
   id: 5
   title: Conversation
-  manualSize: {x: 36, y: 29.666702}
+  manualSize: {x: 36, y: 28.999996}
   positionType: 2
   manualPosition: {x: 24, y: 69.7}
   positionSmoothing: 0
@@ -661,13 +661,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 335.12, y: 152.80821}
+  biggestElementSize: {x: 363.52, y: 217.59998}
   rect:
     serializedVersion: 2
-    x: 56.64
-    y: 291.34158
-    width: 339.84
-    height: 157.52821
+    x: 61.440002
+    y: 423.93597
+    width: 368.63998
+    height: 222.71997
   showInFilter: 1
 --- !u!114 &11400014
 MonoBehaviour:
@@ -2147,10 +2147,10 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 4.72
-    y: 4.72
-    width: 330.4
-    height: 138.05827
+    x: 5.12
+    y: 5.12
+    width: 358.4
+    height: 199.68
   relativePosition: {x: 0, y: 0}
   numSlots: 5
   uiSlots:
@@ -2222,10 +2222,10 @@ MonoBehaviour:
   linkedUiID: 14192356
   relativeRect:
     serializedVersion: 2
-    x: 4.72
-    y: 147.49828
-    width: 330.4
-    height: 5.3099337
+    x: 5.12
+    y: 209.91998
+    width: 358.4
+    height: 7.68
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiSlider: {fileID: 0}

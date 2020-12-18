@@ -82,7 +82,7 @@ MonoBehaviour:
     combineID: 
     unhandledActionList: {fileID: 0}
     unhandledCombineActionList: {fileID: 0}
-    showInFilter: 0
+    showInFilter: 1
   bins: []
   invVars: []
   unhandledCombine: {fileID: 0}

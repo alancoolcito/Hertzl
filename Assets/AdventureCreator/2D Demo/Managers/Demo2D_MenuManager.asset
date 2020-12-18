@@ -28,10 +28,10 @@ MonoBehaviour:
   globalDepth: 0
   pauseTexture: {fileID: 2800000, guid: 2de7d16b4ac4b402182d4f2ca40e0b2d, type: 3}
   scaleTextEffects: 0
-  keyboardControlWhenPaused: 1
-  keyboardControlWhenDialogOptions: 1
+  keyboardControlWhenPaused: 0
+  keyboardControlWhenDialogOptions: 0
   autoSelectValidRaycasts: 0
-  hasUpgraded: 0
+  hasUpgraded: 1
   doWindowsPreviewFix: 0
   drawOutlines: 1
   drawInEditor: 1
@@ -770,7 +770,7 @@ MonoBehaviour:
   title: Conversation
   manualSize: {x: 100, y: 15.9}
   positionType: 1
-  manualPosition: {x: 50, y: 92.05}
+  manualPosition: {x: 512, y: 706.944}
   positionSmoothing: 0
   alignment: 6
   toggleKey: 
@@ -845,9 +845,9 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 0
-    y: 195.953
-    width: 414
-    height: 37.046997
+    y: 645.888
+    width: 1024
+    height: 122.112
   showInFilter: 1
 --- !u!114 &11400020
 MonoBehaviour:
@@ -2735,10 +2735,10 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 2.07
-    y: 2.07
-    width: 110.537994
-    height: 29.125
+    x: 5.12
+    y: 5.12
+    width: 273.408
+    height: 96
   relativePosition: {x: 0, y: 0}
   numSlots: 3
   uiSlots: []
@@ -2855,10 +2855,10 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 2.07
-    y: 33.265
-    width: 414
-    height: 2.563
+    x: 5.12
+    y: 106.240005
+    width: 1024
+    height: 8.448
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiSlider: {fileID: 0}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4a24d0e4a28423fb3249b923d7e418, type: 3}
+  m_Name: Herzl_ManagerPackage
+  m_EditorClassIdentifier: 
+  actionsManager: {fileID: 11400000, guid: 466cc9c15d843d74c9922082fde324fb, type: 2}
+  sceneManager: {fileID: 11400000, guid: acc4ffb18112d6d43bd384693bd57749, type: 2}
+  settingsManager: {fileID: 11400000, guid: 69a99a55dc978bb4db0f4eb0a4731683, type: 2}
+  inventoryManager: {fileID: 11400000, guid: a7be3c0667b2f4c46a4074a376a72ca7, type: 2}
+  variablesManager: {fileID: 11400000, guid: 7cf593aee79074046a40f64768e04f86, type: 2}
+  speechManager: {fileID: 11400000, guid: e6bc9f18b1655754285f5abd2b1ab8e8, type: 2}
+  cursorManager: {fileID: 11400000, guid: 0e8f12b9af582a243beff1ed175dca7b, type: 2}
+  menuManager: {fileID: 11400000, guid: 763ecb4d1b9de9a45a18ff431e03f0d8, type: 2}

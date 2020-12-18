@@ -101,7 +101,7 @@ MonoBehaviour:
   - label: Jury - Paid
     id: 5
     type: 0
-    val: 1
+    val: 0
     floatVal: 0
     textVal: 
     popUps: []
@@ -118,7 +118,7 @@ MonoBehaviour:
   - label: Jury - Female
     id: 6
     type: 0
-    val: 1
+    val: 0
     floatVal: 0
     textVal: 
     popUps: []
@@ -134,6 +134,40 @@ MonoBehaviour:
     showInFilter: 1
   - label: Documents Destroyed
     id: 7
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 1
+  - label: Reported Vendor
+    id: 8
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 1
+  - label: Napoloeon Cutscene
+    id: 9
     type: 0
     val: 0
     floatVal: 0
@@ -193,6 +227,16 @@ MonoBehaviour:
       floatVal: 0
       textVal: 
       vector3Val: {x: 0, y: 0, z: 0}
+    - id: 8
+      val: 0
+      floatVal: 0
+      textVal: 
+      vector3Val: {x: 0, y: 0, z: 0}
+    - id: 9
+      val: 0
+      floatVal: 0
+      textVal: 
+      vector3Val: {x: 0, y: 0, z: 0}
   - label: New preset
     ID: 1
     presetValues:
@@ -232,6 +276,16 @@ MonoBehaviour:
       textVal: 
       vector3Val: {x: 0, y: 0, z: 0}
     - id: 7
+      val: 0
+      floatVal: 0
+      textVal: 
+      vector3Val: {x: 0, y: 0, z: 0}
+    - id: 8
+      val: 0
+      floatVal: 0
+      textVal: 
+      vector3Val: {x: 0, y: 0, z: 0}
+    - id: 9
       val: 0
       floatVal: 0
       textVal: 

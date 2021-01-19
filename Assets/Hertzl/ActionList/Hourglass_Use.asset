@@ -98,7 +98,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: More time to the trial!
-  lineID: -1
+  lineID: 684
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -308,7 +308,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: If I just turn this upside down...
-  lineID: -1
+  lineID: 683
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0

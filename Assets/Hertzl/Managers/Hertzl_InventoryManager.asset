@@ -45,7 +45,7 @@ MonoBehaviour:
       label: Icon 1
       lineID: -1
       id: 0
-    lineID: -1
+    lineID: 661
     useIconID: 0
     binID: -1
     recipeSlot: -1
@@ -97,7 +97,7 @@ MonoBehaviour:
       label: Icon 1
       lineID: -1
       id: 0
-    lineID: -1
+    lineID: 662
     useIconID: 0
     binID: -1
     recipeSlot: -1
@@ -203,7 +203,7 @@ MonoBehaviour:
       label: Icon 1
       lineID: -1
       id: 0
-    lineID: -1
+    lineID: 663
     useIconID: 0
     binID: -1
     recipeSlot: -1
@@ -273,7 +273,7 @@ MonoBehaviour:
       label: Icon 1
       lineID: -1
       id: 0
-    lineID: -1
+    lineID: 664
     useIconID: 0
     binID: -1
     recipeSlot: -1
@@ -325,7 +325,7 @@ MonoBehaviour:
       label: Icon 1
       lineID: -1
       id: 0
-    lineID: -1
+    lineID: 665
     useIconID: 0
     binID: -1
     recipeSlot: -1

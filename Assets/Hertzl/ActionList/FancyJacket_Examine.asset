@@ -46,7 +46,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: Someone can look very formal wearing this
-  lineID: -1
+  lineID: 687
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0

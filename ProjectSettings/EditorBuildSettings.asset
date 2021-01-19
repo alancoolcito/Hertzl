@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Outside Court.unity
     guid: 341433bbd45539840b281b2d906fc4df
   - enabled: 1
-    path: Assets/Scenes/Trial.unity
+    path: Assets/Scenes/Trial_HOLDER.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

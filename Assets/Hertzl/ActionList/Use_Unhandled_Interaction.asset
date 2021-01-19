@@ -69,7 +69,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: I have no use for that.
-  lineID: -1
+  lineID: 691
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0

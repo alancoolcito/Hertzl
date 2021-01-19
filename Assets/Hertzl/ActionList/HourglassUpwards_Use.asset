@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech(Clone)
+  m_Name: ActionSpeech
   m_EditorClassIdentifier: 
   id: 0
   category: 4
@@ -46,7 +46,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: Less time to the trial!
-  lineID: -1
+  lineID: 686
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aac25eb7cbe8345d6baaf5efb8fc62e8, type: 3}
-  m_Name: ActionInventorySet(Clone)
+  m_Name: ActionInventorySet
   m_EditorClassIdentifier: 
   id: 0
   category: 9
@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aac25eb7cbe8345d6baaf5efb8fc62e8, type: 3}
-  m_Name: ActionInventorySet(Clone)
+  m_Name: ActionInventorySet
   m_EditorClassIdentifier: 
   id: 0
   category: 9
@@ -343,7 +343,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech(Clone)
+  m_Name: ActionSpeech
   m_EditorClassIdentifier: 
   id: 0
   category: 4
@@ -379,7 +379,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: If I just turn this downise up...
-  lineID: -1
+  lineID: 685
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0

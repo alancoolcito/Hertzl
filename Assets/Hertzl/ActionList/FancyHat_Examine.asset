@@ -69,7 +69,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: It looks like a costume
-  lineID: -1
+  lineID: 682
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0

@@ -121,65 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &40095581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 4
-  title: Play speech
-  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
-    displays a message. Subtitles only appear if they are enabled from the Options
-    menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 16
-    y: 234
-    width: 300
-    height: 187
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 1
-  speaker: {fileID: 0}
-  messageText: I don't want him to find out that i took it
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 0
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
 --- !u!114 &44577992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,7 +167,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: From across the street
-  lineID: -1
+  lineID: 151
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -429,7 +370,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: People always hurry to the court and dont notice me
-  lineID: -1
+  lineID: 129
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -569,7 +510,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: Good luck
-  lineID: -1
+  lineID: 123
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -675,7 +616,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 766412652}
   messageText: How about selling beverages
-  lineID: -1
+  lineID: 142
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -734,7 +675,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: If I go far away then I'll miss the trial
-  lineID: -1
+  lineID: 106
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -968,7 +909,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: Just do what ever you think is right
-  lineID: -1
+  lineID: 133
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -1027,7 +968,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: I was thinking about giving my buissnes a name
-  lineID: -1
+  lineID: 139
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -1167,7 +1108,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: Sorry, I just want a sip
-  lineID: -1
+  lineID: 157
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -1415,7 +1356,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: Wow thanks, this will complete the outfit just fine
-  lineID: -1
+  lineID: 112
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -1474,7 +1415,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: Where did you got that coffee?
-  lineID: -1
+  lineID: 150
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -1652,7 +1593,7 @@ MonoBehaviour:
   talkingAnimation: 0
   separateTalkingLayer: 0
   speechLabel: Reporters_AprilOnil
-  lineID: -1
+  lineID: 163
   displayLineID: -1
   speechColor: {r: 0.9843138, g: 0.9490197, b: 0.21176472, a: 1}
   portraitIcon:
@@ -1948,7 +1889,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: That's a nice hat thanks
-  lineID: -1
+  lineID: 114
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -2007,7 +1948,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: How about a change of location?
-  lineID: -1
+  lineID: 130
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -2066,7 +2007,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: So... Baguettes ah?
-  lineID: -1
+  lineID: 119
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -2125,7 +2066,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: I would just grab you and go back to Vienna
-  lineID: -1
+  lineID: 107
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -2184,7 +2125,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: My stall is here
-  lineID: -1
+  lineID: 135
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -2268,7 +2209,7 @@ MonoBehaviour:
   talkingAnimation: 0
   separateTalkingLayer: 0
   speechLabel: Reporter_KidJolly
-  lineID: -1
+  lineID: 164
   displayLineID: -1
   speechColor: {r: 1, g: 1, b: 1, a: 1}
   portraitIcon:
@@ -2589,7 +2530,7 @@ MonoBehaviour:
   talkingAnimation: 0
   separateTalkingLayer: 0
   speechLabel: Reporter_MrT
-  lineID: -1
+  lineID: 165
   displayLineID: -1
   speechColor: {r: 0.38823533, g: 0.26666668, b: 0.16470589, a: 1}
   portraitIcon:
@@ -2956,7 +2897,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: MY STALL IS HERE MERDE
-  lineID: -1
+  lineID: 137
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -3159,7 +3100,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: People tell me that I look like Victor, Prince Napoleon
-  lineID: -1
+  lineID: 145
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -3218,7 +3159,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: You know, thats a fine way to die around here
-  lineID: -1
+  lineID: 158
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -3277,7 +3218,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: wanna buy some? It's 1 franc a basket
-  lineID: -1
+  lineID: 124
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -3361,7 +3302,7 @@ MonoBehaviour:
   talkingAnimation: 0
   separateTalkingLayer: 0
   speechLabel: Reporter_Old
-  lineID: -1
+  lineID: 166
   displayLineID: -1
   speechColor: {r: 0.6, g: 0.6117647, b: 0.32156864, a: 1}
   portraitIcon:
@@ -3662,7 +3603,7 @@ MonoBehaviour:
   limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
   hotspotName: Reporters
-  lineID: -1
+  lineID: 167
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
   centrePoint: {fileID: 0}
@@ -3950,7 +3891,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: Well, enjoy the view
-  lineID: -1
+  lineID: 127
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -4131,7 +4072,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: How about increasing your selection?
-  lineID: -1
+  lineID: 132
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -4575,7 +4516,7 @@ MonoBehaviour:
   limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
   hotspotName: Reporters
-  lineID: -1
+  lineID: 168
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
   centrePoint: {fileID: 0}
@@ -4916,7 +4857,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: I can't affort his costume...
-  lineID: -1
+  lineID: 147
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -5189,7 +5130,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: You need better designers
-  lineID: -1
+  lineID: 153
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -5330,7 +5271,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: How is the buissnes going?
-  lineID: -1
+  lineID: 120
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -5394,7 +5335,7 @@ MonoBehaviour:
   limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
   hotspotName: Reporters
-  lineID: -1
+  lineID: 169
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
   centrePoint: {fileID: 0}
@@ -5682,7 +5623,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: It's driving me mad
-  lineID: -1
+  lineID: 110
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -5741,66 +5682,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: He has a glorious mustache
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 0
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
---- !u!114 &921051329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: ActionSpeech
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 4
-  title: Play speech
-  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
-    displays a message. Subtitles only appear if they are enabled from the Options
-    menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 14
-    width: 300
-    height: 172
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 1
-  speaker: {fileID: 0}
-  messageText: Are you suicidal?
-  lineID: -1
+  lineID: 162
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -5864,7 +5746,7 @@ MonoBehaviour:
   limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
   hotspotName: Reporters
-  lineID: -1
+  lineID: 170
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
   centrePoint: {fileID: 0}
@@ -6152,7 +6034,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: That's a nice jacket thanks
-  lineID: -1
+  lineID: 111
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -6216,7 +6098,7 @@ MonoBehaviour:
   limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
   hotspotName: Reporters
-  lineID: -1
+  lineID: 171
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
   centrePoint: {fileID: 0}
@@ -6504,7 +6386,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: Ok Ok I got it
-  lineID: -1
+  lineID: 138
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -6740,7 +6622,7 @@ MonoBehaviour:
   talkingAnimation: 0
   separateTalkingLayer: 0
   speechLabel: Reporter_Purple
-  lineID: -1
+  lineID: 172
   displayLineID: -1
   speechColor: {r: 0.49803925, g: 0.41176474, b: 0.8862746, a: 1}
   portraitIcon:
@@ -7541,7 +7423,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: I just need to find a way to make people notice me
-  lineID: -1
+  lineID: 134
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -7684,7 +7566,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: But I only have baguettes
-  lineID: -1
+  lineID: 141
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -7768,7 +7650,7 @@ MonoBehaviour:
   talkingAnimation: 0
   separateTalkingLayer: 0
   speechLabel: Reporters_CowboyBrown
-  lineID: -1
+  lineID: 173
   displayLineID: -1
   speechColor: {r: 0.41176474, g: 0.4156863, b: 0.4156863, a: 1}
   portraitIcon:
@@ -8161,7 +8043,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: Never touch another men's coffee!
-  lineID: -1
+  lineID: 156
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -8541,7 +8423,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: But you can move....
-  lineID: -1
+  lineID: 136
   multiLineIDs: 
   isBackground: 1
   noAnimation: 0
@@ -8600,7 +8482,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: What is going on inside?
-  lineID: -1
+  lineID: 122
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -8820,6 +8702,65 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &1315856525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 16
+    y: 234
+    width: 300
+    height: 187
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3400352344289501739}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  speaker: {fileID: 0}
+  messageText: I don't want him to find out that i took it
+  lineID: 118
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &1322037947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8866,7 +8807,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: I want you so bad
-  lineID: -1
+  lineID: 109
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -8996,7 +8937,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: If I go far away then I'll miss the trial
-  lineID: -1
+  lineID: 161
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -9080,7 +9021,7 @@ MonoBehaviour:
   talkingAnimation: 0
   separateTalkingLayer: 0
   speechLabel: Reporter_KidDark
-  lineID: -1
+  lineID: 174
   displayLineID: -1
   speechColor: {r: 0.43137258, g: 0.14117648, b: 0.14117648, a: 1}
   portraitIcon:
@@ -9416,7 +9357,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: I'm just looking
-  lineID: -1
+  lineID: 126
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -9475,7 +9416,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: Can I have it?
-  lineID: -1
+  lineID: 154
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -9605,7 +9546,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: Put one finger on it and i'll make you puke out your teeth
-  lineID: -1
+  lineID: 155
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -9664,7 +9605,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: I got the clue
-  lineID: -1
+  lineID: 159
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -9741,7 +9682,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: I don't have time for this
-  lineID: -1
+  lineID: 144
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -9944,7 +9885,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: I can't cross it, the designers didn't bother to allow me
-  lineID: -1
+  lineID: 152
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -10084,7 +10025,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: But I will look silly without the iconic hat
-  lineID: -1
+  lineID: 113
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -10219,7 +10160,7 @@ MonoBehaviour:
   limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
   hotspotName: Reporters
-  lineID: -1
+  lineID: 175
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
   centrePoint: {fileID: 0}
@@ -10507,7 +10448,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: That would be a good place to start
-  lineID: -1
+  lineID: 140
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -10737,6 +10678,65 @@ MonoBehaviour:
   compareVariablesConstantID: 0
   placeholderType: 0
   placeholderPopUpLabelDataID: 0
+--- !u!114 &1658360144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 172
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3400352344289501739}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  speaker: {fileID: 0}
+  messageText: Are you suicidal?
+  lineID: 117
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &1670176691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10854,7 +10854,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: You can dress like mr. Napoleon to attract costumers!
-  lineID: -1
+  lineID: 146
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -10913,7 +10913,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: Not well
-  lineID: -1
+  lineID: 128
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -10972,7 +10972,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: 'From what I heard an atrillary officer  is accussed of betrayal '
-  lineID: -1
+  lineID: 148
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -11246,7 +11246,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: Wow thanks, this will complete the outfit just fine
-  lineID: -1
+  lineID: 115
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -11376,7 +11376,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: You look familiar
-  lineID: -1
+  lineID: 121
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -11460,7 +11460,7 @@ MonoBehaviour:
   talkingAnimation: 0
   separateTalkingLayer: 0
   speechLabel: Reporter_CowboyGray
-  lineID: -1
+  lineID: 176
   displayLineID: -1
   speechColor: {r: 0.8117648, g: 0.7686275, b: 0.7686275, a: 1}
   portraitIcon:
@@ -11765,7 +11765,7 @@ MonoBehaviour:
   talkingAnimation: 0
   separateTalkingLayer: 0
   speechLabel: Vendor
-  lineID: -1
+  lineID: 177
   displayLineID: -1
   speechColor: {r: 0.5803922, g: 0.43921572, b: 0.2901961, a: 1}
   portraitIcon:
@@ -12151,7 +12151,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: You dont need a beverage with a good baguette
-  lineID: -1
+  lineID: 143
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -12326,7 +12326,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: Now he seems busy
-  lineID: -1
+  lineID: 160
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -12552,7 +12552,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: Or accussed of being jewish, I haven't quite followed
-  lineID: -1
+  lineID: 149
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -12861,7 +12861,7 @@ MonoBehaviour:
   talkingAnimation: 0
   separateTalkingLayer: 0
   speechLabel: Reporter_Pink
-  lineID: -1
+  lineID: 178
   displayLineID: -1
   speechColor: {r: 0.85098046, g: 0.34117648, b: 0.38823533, a: 1}
   portraitIcon:
@@ -13301,7 +13301,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: Nah...
-  lineID: -1
+  lineID: 125
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -13365,7 +13365,7 @@ MonoBehaviour:
   limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
   hotspotName: Reporters
-  lineID: -1
+  lineID: 179
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
   centrePoint: {fileID: 0}
@@ -13658,7 +13658,7 @@ MonoBehaviour:
   limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
   hotspotName: Reporters
-  lineID: -1
+  lineID: 180
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
   centrePoint: {fileID: 0}
@@ -14027,7 +14027,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: I want you
-  lineID: -1
+  lineID: 108
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -14141,7 +14141,7 @@ MonoBehaviour:
   limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
   hotspotName: Vendor
-  lineID: -1
+  lineID: 181
   highlight: {fileID: 0}
   walkToMarker: {fileID: 6443616893038569650}
   centrePoint: {fileID: 0}
@@ -14423,7 +14423,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 1779065528}
   messageText: But I will look silly without the iconic jacket
-  lineID: -1
+  lineID: 116
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -14735,7 +14735,7 @@ MonoBehaviour:
   limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
   hotspotName: Reporters
-  lineID: -1
+  lineID: 182
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
   centrePoint: {fileID: 0}
@@ -15269,7 +15269,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: How about some publicity
-  lineID: -1
+  lineID: 131
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -16193,7 +16193,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2570941305275836434
 Transform:
@@ -16628,8 +16628,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 921051329}
-  - {fileID: 40095581}
+  - {fileID: 1658360144}
+  - {fileID: 1315856525}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -16738,7 +16738,7 @@ MonoBehaviour:
   limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
   hotspotName: 
-  lineID: -1
+  lineID: 183
   highlight: {fileID: 0}
   walkToMarker: {fileID: 4439111589798980278}
   centrePoint: {fileID: 0}
@@ -16881,7 +16881,7 @@ MonoBehaviour:
   interactionSource: 0
   options:
   - label: So... Baguettes ah?
-    lineID: -1
+    lineID: 184
     icon: {fileID: 0}
     cursorIcon:
       texture: {fileID: 0}
@@ -16909,7 +16909,7 @@ MonoBehaviour:
     customScriptObject: {fileID: 0}
     customScriptFunction: 
   - label: Where did you got that coffee?
-    lineID: -1
+    lineID: 185
     icon: {fileID: 0}
     cursorIcon:
       texture: {fileID: 0}
@@ -16937,7 +16937,7 @@ MonoBehaviour:
     customScriptObject: {fileID: 0}
     customScriptFunction: 
   - label: How is the buissnes going?
-    lineID: -1
+    lineID: 186
     icon: {fileID: 0}
     cursorIcon:
       texture: {fileID: 0}
@@ -16965,7 +16965,7 @@ MonoBehaviour:
     customScriptObject: {fileID: 0}
     customScriptFunction: 
   - label: You look familiar
-    lineID: -1
+    lineID: 187
     icon: {fileID: 0}
     cursorIcon:
       texture: {fileID: 0}
@@ -16993,7 +16993,7 @@ MonoBehaviour:
     customScriptObject: {fileID: 0}
     customScriptFunction: 
   - label: What is going on inside?
-    lineID: -1
+    lineID: 188
     icon: {fileID: 0}
     cursorIcon:
       texture: {fileID: 0}
@@ -17021,7 +17021,7 @@ MonoBehaviour:
     customScriptObject: {fileID: 0}
     customScriptFunction: 
   - label: Good luck
-    lineID: -1
+    lineID: 189
     icon: {fileID: 0}
     cursorIcon:
       texture: {fileID: 0}
@@ -17253,7 +17253,7 @@ MonoBehaviour:
   interactionSource: 0
   options:
   - label: How about a change of location?
-    lineID: -1
+    lineID: 190
     icon: {fileID: 0}
     cursorIcon:
       texture: {fileID: 0}
@@ -17281,7 +17281,7 @@ MonoBehaviour:
     customScriptObject: {fileID: 0}
     customScriptFunction: 
   - label: How about some publicity
-    lineID: -1
+    lineID: 191
     icon: {fileID: 0}
     cursorIcon:
       texture: {fileID: 0}
@@ -17309,7 +17309,7 @@ MonoBehaviour:
     customScriptObject: {fileID: 0}
     customScriptFunction: 
   - label: How about increasing your selection?
-    lineID: -1
+    lineID: 192
     icon: {fileID: 0}
     cursorIcon:
       texture: {fileID: 0}
@@ -17337,7 +17337,7 @@ MonoBehaviour:
     customScriptObject: {fileID: 0}
     customScriptFunction: 
   - label: Just do what ever you think is right
-    lineID: -1
+    lineID: 193
     icon: {fileID: 0}
     cursorIcon:
       texture: {fileID: 0}

@@ -46,7 +46,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: COFFEINNE RUSH!
-  lineID: -1
+  lineID: 690
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -105,7 +105,7 @@ MonoBehaviour:
   isPlayer: 1
   speaker: {fileID: 0}
   messageText: I'll just take a little sip
-  lineID: -1
+  lineID: 689
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0
@@ -309,7 +309,7 @@ MonoBehaviour:
   isPlayer: 0
   speaker: {fileID: 0}
   messageText: It's empty
-  lineID: -1
+  lineID: 688
   multiLineIDs: 
   isBackground: 0
   noAnimation: 0

@@ -36,7 +36,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
-  m_Name: ActionMenuState(Clone)(Clone)(Clone)
+  m_Name: ActionMenuState
   m_EditorClassIdentifier: 
   id: 0
   category: 10
@@ -86,7 +86,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
-  m_Name: ActionMenuState(Clone)(Clone)
+  m_Name: ActionMenuState
   m_EditorClassIdentifier: 
   id: 0
   category: 10
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
-  m_Name: ActionMenuState(Clone)
+  m_Name: ActionMenuState
   m_EditorClassIdentifier: 
   id: 0
   category: 10

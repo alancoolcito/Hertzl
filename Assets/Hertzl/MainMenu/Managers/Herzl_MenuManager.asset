@@ -1240,7 +1240,7 @@ MonoBehaviour:
   textEffects: 0
   outlineSize: 2
   buttonClickType: 3
-  actionList: {fileID: 11400000, guid: 2c1abc5a687ba3341ba61272a32491bb, type: 2}
+  actionList: {fileID: 0}
   parameterID: -1
   parameterValue: 0
   doFade: 1
@@ -4200,8 +4200,7 @@ MonoBehaviour:
   canClickInCutscene: 0
   enabledOnStart: 0
   actionListOnTurnOn: {fileID: 0}
-  actionListOnTurnOff: {fileID: 11400000, guid: d175030c237f296428af08fdc6f9ab6b,
-    type: 2}
+  actionListOnTurnOff: {fileID: 0}
   updateWhenFadeOut: 1
   hideDuringSaveScreenshots: 1
   fitWithinScreen: 1
